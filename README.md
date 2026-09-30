@@ -12,7 +12,7 @@ Public image files and replacement JSON for AIB marketing banners. The AIB appli
 
 Use raw file URLs in the app, rather than GitHub HTML/blob URLs:
 
-`https://raw.githubusercontent.com/pxlzone/aib-public/main/assets/banners/v1/<filename>`
+`https://raw.githubusercontent.com/pxlzone/aib-public/main/<asset path from assets/manifest.json>`
 
 JSON:
 
@@ -20,7 +20,7 @@ JSON:
 
 `https://raw.githubusercontent.com/pxlzone/aib-public/main/data/banners.marketing-branch.json`
 
-The `v1` asset paths should remain unchanged after publication. Future artwork revisions should use a new version directory so clients with disk caches see the new files.
+The supplied images use `assets/banners/v1/`; the revised floating-object artwork uses `assets/banners/v2/`. The JSON always points to the current selected artwork. Future artwork revisions should use a new version directory so clients with disk caches see the new files.
 
 ## Supplied images
 
@@ -34,7 +34,7 @@ The six original files are hosted byte-for-byte, retaining their dimensions and 
 
 The card artwork is the supplied Islamic Visa Signature visual. Its use for the sample prepaid-card offer is a mapping from the sample request, not a verification of the pictured card's product classification.
 
-Four additional topics use newly generated artwork: international transfers, personal plans/loan, savings, and business banking. Generation used the built-in imagegen tool; export crops and compression used Pillow. No generated bank logos, card numbers, or product terms were added.
+Four additional topics use floating-object artwork: a globe and paper plane for international transfers, a key and notebook for personal plans/loan, coins and a leaf for savings, and a payment terminal and ledger for business banking. The objects are suspended against a continuous blue or pale blue backdrop without floors or display stages. Generation used the built-in imagegen tool with the supplied floating-card composition as a reference; export crops and compression used Pillow. No generated bank logos, card numbers, or product terms were added.
 
 The style reference was [AIB's public website](https://aib.af), inspected on 2026-09-30: blue and pale blue surfaces, spacious layouts, product imagery, and Afghan landscape photography. The supplied sample product copy remains unverified and includes placeholder navigation/icon examples; publishing these files does not approve that copy for production.
 

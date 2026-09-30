@@ -4,13 +4,15 @@
       "file": "pay-by-qr-banner.jpg",
       "width": 1024,
       "height": 253,
-      "source": "user-supplied; original bytes"
+      "source": "user-supplied; original bytes",
+      "path": "assets/banners/v1/pay-by-qr-banner.jpg"
     },
     "info": {
       "file": "pay-by-qr-info.jpg",
       "width": 1024,
       "height": 903,
-      "source": "user-supplied; original bytes"
+      "source": "user-supplied; original bytes",
+      "path": "assets/banners/v1/pay-by-qr-info.jpg"
     }
   },
   "prepaid-card-top-up": {
@@ -18,13 +20,15 @@
       "file": "prepaid-card-top-up-banner.png",
       "width": 640,
       "height": 182,
-      "source": "user-supplied; original bytes"
+      "source": "user-supplied; original bytes",
+      "path": "assets/banners/v1/prepaid-card-top-up-banner.png"
     },
     "info": {
       "file": "prepaid-card-top-up-info.png",
       "width": 645,
       "height": 705,
-      "source": "user-supplied; original bytes"
+      "source": "user-supplied; original bytes",
+      "path": "assets/banners/v1/prepaid-card-top-up-info.png"
     }
   },
   "mobile-banking": {
@@ -32,13 +36,15 @@
       "file": "mobile-banking-banner.jpg",
       "width": 640,
       "height": 182,
-      "source": "user-supplied; original bytes"
+      "source": "user-supplied; original bytes",
+      "path": "assets/banners/v1/mobile-banking-banner.jpg"
     },
     "info": {
       "file": "mobile-banking-info.jpg",
       "width": 716,
       "height": 459,
-      "source": "user-supplied; original bytes"
+      "source": "user-supplied; original bytes",
+      "path": "assets/banners/v1/mobile-banking-info.jpg"
     }
   },
   "send-money-abroad": {
@@ -46,13 +52,15 @@
       "file": "send-money-abroad-banner.jpg",
       "width": 780,
       "height": 324,
-      "source": "built-in imagegen; resized and cropped for export"
+      "source": "built-in imagegen edit; floating objects; resized export",
+      "path": "assets/banners/v2/send-money-abroad-banner.jpg"
     },
     "info": {
       "file": "send-money-abroad-info.jpg",
       "width": 1170,
-      "height": 675,
-      "source": "built-in imagegen; resized and cropped for export"
+      "height": 487,
+      "source": "built-in imagegen edit; floating objects; resized export",
+      "path": "assets/banners/v2/send-money-abroad-info.jpg"
     }
   },
   "personal-loan": {
@@ -60,13 +68,15 @@
       "file": "personal-loan-banner.jpg",
       "width": 780,
       "height": 324,
-      "source": "built-in imagegen; resized and cropped for export"
+      "source": "built-in imagegen edit; floating objects; resized export",
+      "path": "assets/banners/v2/personal-loan-banner.jpg"
     },
     "info": {
       "file": "personal-loan-info.jpg",
       "width": 1170,
-      "height": 675,
-      "source": "built-in imagegen; resized and cropped for export"
+      "height": 487,
+      "source": "built-in imagegen edit; floating objects; resized export",
+      "path": "assets/banners/v2/personal-loan-info.jpg"
     }
   },
   "savings-account": {
@@ -74,13 +84,15 @@
       "file": "savings-account-banner.jpg",
       "width": 780,
       "height": 324,
-      "source": "built-in imagegen; resized and cropped for export"
+      "source": "built-in imagegen edit; floating objects; resized export",
+      "path": "assets/banners/v2/savings-account-banner.jpg"
     },
     "info": {
       "file": "savings-account-info.jpg",
       "width": 1170,
-      "height": 675,
-      "source": "built-in imagegen; resized and cropped for export"
+      "height": 487,
+      "source": "built-in imagegen edit; floating objects; resized export",
+      "path": "assets/banners/v2/savings-account-info.jpg"
     }
   },
   "business-account": {
@@ -88,13 +100,15 @@
       "file": "business-account-banner.jpg",
       "width": 780,
       "height": 324,
-      "source": "built-in imagegen; resized and cropped for export"
+      "source": "built-in imagegen edit; floating objects; resized export",
+      "path": "assets/banners/v2/business-account-banner.jpg"
     },
     "info": {
       "file": "business-account-info.jpg",
       "width": 1170,
       "height": 487,
-      "source": "built-in imagegen; resized and cropped for export"
+      "source": "built-in imagegen edit; floating objects; resized export",
+      "path": "assets/banners/v2/business-account-info.jpg"
     }
   }
 }
