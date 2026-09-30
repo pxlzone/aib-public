@@ -4,13 +4,13 @@
       {
         "id": "send-money-abroad",
         "order": 1,
-        "imageUrl": "https://raw.githubusercontent.com/pxlzone/aib-public/main/assets/banners/v2/send-money-abroad-banner.jpg",
+        "imageUrl": "https://raw.githubusercontent.com/pxlzone/aib-public/main/assets/banners/v3/send-money-abroad-banner.jpg",
         "title": "Send money abroad",
         "description": "Transfer to your recipients in a few taps.",
         "color": "#FFFFFF",
         "action": "form",
         "descriptionText": "Transfer to your recipients in a few taps.",
-        "descriptionImage": "https://raw.githubusercontent.com/pxlzone/aib-public/main/assets/banners/v2/send-money-abroad-info.jpg"
+        "descriptionImage": "https://raw.githubusercontent.com/pxlzone/aib-public/main/assets/banners/v3/send-money-abroad-info.jpg"
       },
       {
         "id": "prepaid-card-top-up",
@@ -35,24 +35,24 @@
       {
         "id": "personal-loan",
         "order": 4,
-        "imageUrl": "https://raw.githubusercontent.com/pxlzone/aib-public/main/assets/banners/v2/personal-loan-banner.jpg",
+        "imageUrl": "https://raw.githubusercontent.com/pxlzone/aib-public/main/assets/banners/v3/personal-loan-banner.jpg",
         "title": "Personal loan",
         "description": "Borrow up to 500,000 AFN with fixed monthly payments.",
         "color": "#FFFFFF",
         "action": "form",
         "descriptionText": "Borrow up to 500,000 AFN with fixed monthly payments.",
-        "descriptionImage": "https://raw.githubusercontent.com/pxlzone/aib-public/main/assets/banners/v2/personal-loan-info.jpg"
+        "descriptionImage": "https://raw.githubusercontent.com/pxlzone/aib-public/main/assets/banners/v3/personal-loan-info.jpg"
       },
       {
         "id": "savings-account",
         "order": 5,
-        "imageUrl": "https://raw.githubusercontent.com/pxlzone/aib-public/main/assets/banners/v2/savings-account-banner.jpg",
+        "imageUrl": "https://raw.githubusercontent.com/pxlzone/aib-public/main/assets/banners/v3/savings-account-banner.jpg",
         "title": "Open a savings account",
         "description": "Grow your money with a competitive profit rate.",
-        "color": "#000000",
+        "color": "#FFFFFF",
         "action": "form",
         "descriptionText": "Grow your money with a competitive profit rate.",
-        "descriptionImage": "https://raw.githubusercontent.com/pxlzone/aib-public/main/assets/banners/v2/savings-account-info.jpg"
+        "descriptionImage": "https://raw.githubusercontent.com/pxlzone/aib-public/main/assets/banners/v3/savings-account-info.jpg"
       },
       {
         "id": "mobile-banking",
@@ -68,11 +68,11 @@
       {
         "id": "business-account",
         "order": 7,
-        "imageUrl": "https://raw.githubusercontent.com/pxlzone/aib-public/main/assets/banners/v2/business-account-banner.jpg",
+        "imageUrl": "https://raw.githubusercontent.com/pxlzone/aib-public/main/assets/banners/v3/business-account-banner.jpg",
         "title": "Business account",
         "description": "Banking built for growing companies.",
         "descriptionText": "Manage payroll, suppliers and payments from one account.",
-        "descriptionImage": "https://raw.githubusercontent.com/pxlzone/aib-public/main/assets/banners/v2/business-account-info.jpg",
+        "descriptionImage": "https://raw.githubusercontent.com/pxlzone/aib-public/main/assets/banners/v3/business-account-info.jpg",
         "color": "#FFFFFF",
         "action": "form"
       }

@@ -52,15 +52,19 @@
       "file": "send-money-abroad-banner.jpg",
       "width": 780,
       "height": 324,
-      "source": "built-in imagegen edit; floating objects; resized export",
-      "path": "assets/banners/v2/send-money-abroad-banner.jpg"
+      "source": "photographic image from AIB public website; crop and JPEG export",
+      "path": "assets/banners/v3/send-money-abroad-banner.jpg",
+      "sourceUrl": "https://framerusercontent.com/images/yeqiKX3pbwKywxNPe8uk6ADU8B8.jpg",
+      "sourcePage": "https://aib.af/consumer/account"
     },
     "info": {
       "file": "send-money-abroad-info.jpg",
       "width": 1170,
-      "height": 487,
-      "source": "built-in imagegen edit; floating objects; resized export",
-      "path": "assets/banners/v2/send-money-abroad-info.jpg"
+      "height": 612,
+      "source": "photographic image from AIB public website; crop and JPEG export",
+      "path": "assets/banners/v3/send-money-abroad-info.jpg",
+      "sourceUrl": "https://framerusercontent.com/images/yeqiKX3pbwKywxNPe8uk6ADU8B8.jpg",
+      "sourcePage": "https://aib.af/consumer/account"
     }
   },
   "personal-loan": {
@@ -68,15 +72,19 @@
       "file": "personal-loan-banner.jpg",
       "width": 780,
       "height": 324,
-      "source": "built-in imagegen edit; floating objects; resized export",
-      "path": "assets/banners/v2/personal-loan-banner.jpg"
+      "source": "photographic image from AIB public website; crop and JPEG export",
+      "path": "assets/banners/v3/personal-loan-banner.jpg",
+      "sourceUrl": "https://framerusercontent.com/images/xlGhQYl1j9hY5e8XyvmcyTaSY.png",
+      "sourcePage": "https://aib.af/consumer/financing"
     },
     "info": {
       "file": "personal-loan-info.jpg",
       "width": 1170,
-      "height": 487,
-      "source": "built-in imagegen edit; floating objects; resized export",
-      "path": "assets/banners/v2/personal-loan-info.jpg"
+      "height": 1170,
+      "source": "photographic image from AIB public website; crop and JPEG export",
+      "path": "assets/banners/v3/personal-loan-info.jpg",
+      "sourceUrl": "https://framerusercontent.com/images/xlGhQYl1j9hY5e8XyvmcyTaSY.png",
+      "sourcePage": "https://aib.af/consumer/financing"
     }
   },
   "savings-account": {
@@ -84,15 +92,19 @@
       "file": "savings-account-banner.jpg",
       "width": 780,
       "height": 324,
-      "source": "built-in imagegen edit; floating objects; resized export",
-      "path": "assets/banners/v2/savings-account-banner.jpg"
+      "source": "photographic image from AIB public website; crop and JPEG export",
+      "path": "assets/banners/v3/savings-account-banner.jpg",
+      "sourceUrl": "https://framerusercontent.com/images/ilF53uBy2PmFag3KymfkxrobjJ8.webp",
+      "sourcePage": "https://aib.af/consumer/account"
     },
     "info": {
       "file": "savings-account-info.jpg",
       "width": 1170,
-      "height": 487,
-      "source": "built-in imagegen edit; floating objects; resized export",
-      "path": "assets/banners/v2/savings-account-info.jpg"
+      "height": 638,
+      "source": "photographic image from AIB public website; crop and JPEG export",
+      "path": "assets/banners/v3/savings-account-info.jpg",
+      "sourceUrl": "https://framerusercontent.com/images/ilF53uBy2PmFag3KymfkxrobjJ8.webp",
+      "sourcePage": "https://aib.af/consumer/account"
     }
   },
   "business-account": {
@@ -100,15 +112,19 @@
       "file": "business-account-banner.jpg",
       "width": 780,
       "height": 324,
-      "source": "built-in imagegen edit; floating objects; resized export",
-      "path": "assets/banners/v2/business-account-banner.jpg"
+      "source": "photographic image from AIB public website; crop and JPEG export",
+      "path": "assets/banners/v3/business-account-banner.jpg",
+      "sourceUrl": "https://framerusercontent.com/images/i17BQ77t1PHKxrYGCk1pjFps.png",
+      "sourcePage": "https://aib.af/wholesale/account"
     },
     "info": {
       "file": "business-account-info.jpg",
       "width": 1170,
-      "height": 487,
-      "source": "built-in imagegen edit; floating objects; resized export",
-      "path": "assets/banners/v2/business-account-info.jpg"
+      "height": 612,
+      "source": "photographic image from AIB public website; crop and JPEG export",
+      "path": "assets/banners/v3/business-account-info.jpg",
+      "sourceUrl": "https://framerusercontent.com/images/i17BQ77t1PHKxrYGCk1pjFps.png",
+      "sourcePage": "https://aib.af/wholesale/account"
     }
   }
 }

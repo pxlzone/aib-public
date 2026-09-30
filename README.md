@@ -2,11 +2,11 @@
 
 Public image files and replacement JSON for AIB marketing banners. The AIB application repository was used only as a reference and was not changed.
 
-- [JSON preserving the supplied schema](data/banners.json): all seven banners; only the nine existing image URLs were replaced. Text, actions, order, icons, and nested information content are unchanged.
+- [JSON preserving the supplied schema](data/banners.json): all seven banners; the nine existing image URLs were replaced, and savings text changed from black to white to match the new photography and activate the app's dark overlay. Text content, actions, order, icons, and nested information content are unchanged.
 - [JSON for the inspected marketing branch](data/banners.marketing-branch.json): all seven banners using the fields that branch currently renders. Form offers receive a larger `descriptionImage` and a `descriptionText` fallback. Nested `info` content is omitted because the inspected branch does not consume it; it remains in the primary JSON.
 - [Visual preview](index.html): open through a local static HTTP server. `python3 -m http.server 8765` from this repository is sufficient. The preview includes mobile cards, large information images and an optional desktop crop.
 - [Dimensions and image provenance](assets/manifest.json).
-- [Generation prompts](provenance/generation-prompts.json).
+- [Photography sources](provenance/photography-sources.json).
 
 ## Direct URLs
 
@@ -20,7 +20,7 @@ JSON:
 
 `https://raw.githubusercontent.com/pxlzone/aib-public/main/data/banners.marketing-branch.json`
 
-The supplied images use `assets/banners/v1/`; the revised floating-object artwork uses `assets/banners/v2/`. The JSON always points to the current selected artwork. Future artwork revisions should use a new version directory so clients with disk caches see the new files.
+The supplied images use `assets/banners/v1/`; the photography replacements use `assets/banners/v3/`. The JSON always points to the current selected artwork. Future artwork revisions should use a new version directory so clients with disk caches see the new files.
 
 ## Supplied images
 
@@ -34,7 +34,7 @@ The six original files are hosted byte-for-byte, retaining their dimensions and 
 
 The card artwork is the supplied Islamic Visa Signature visual. Its use for the sample prepaid-card offer is a mapping from the sample request, not a verification of the pictured card's product classification.
 
-Four additional topics use floating-object artwork: a globe and paper plane for international transfers, a key and notebook for personal plans/loan, coins and a leaf for savings, and a payment terminal and ledger for business banking. The objects are suspended against a continuous blue or pale blue backdrop without floors or display stages. Generation used the built-in imagegen tool with the supplied floating-card composition as a reference; export crops and compression used Pillow. No generated bank logos, card numbers, or product terms were added.
+Four additional topics use photographic images sourced directly from AIB's public website: a phone user in a mountain landscape for international transfers, a valley road for personal plans/loan, a bank consultation for savings, and a merchant in his shop for business banking. These are existing site images, exported as mobile crops and larger information images using Pillow; their scenes were not generated or altered for this request. Original source URLs and page references are recorded in the photography provenance file. This records where the images came from, not whether the source images were originally camera photographs or AI-assisted imagery.
 
 The style reference was [AIB's public website](https://aib.af), inspected on 2026-09-30: blue and pale blue surfaces, spacious layouts, product imagery, and Afghan landscape photography. The supplied sample product copy remains unverified and includes placeholder navigation/icon examples; publishing these files does not approve that copy for production.
 

@@ -1,0 +1,37 @@
+{
+  "revision": "v3 photography",
+  "sources": [
+    {
+      "id": "send-money-abroad",
+      "sourcePage": "https://aib.af/consumer/account",
+      "imageUrl": "https://framerusercontent.com/images/yeqiKX3pbwKywxNPe8uk6ADU8B8.jpg",
+      "sourceWidth": 1920,
+      "sourceHeight": 1004,
+      "processing": "Mobile banner center crop to 780x324; larger information image preserves full source composition at 1170px width. No generated objects, compositing or scene edits."
+    },
+    {
+      "id": "personal-loan",
+      "sourcePage": "https://aib.af/consumer/financing",
+      "imageUrl": "https://framerusercontent.com/images/xlGhQYl1j9hY5e8XyvmcyTaSY.png",
+      "sourceWidth": 1024,
+      "sourceHeight": 1024,
+      "processing": "Mobile banner center crop to 780x324; larger information image preserves full source composition at 1170px width. No generated objects, compositing or scene edits."
+    },
+    {
+      "id": "savings-account",
+      "sourcePage": "https://aib.af/consumer/account",
+      "imageUrl": "https://framerusercontent.com/images/ilF53uBy2PmFag3KymfkxrobjJ8.webp",
+      "sourceWidth": 1408,
+      "sourceHeight": 768,
+      "processing": "Mobile banner center crop to 780x324; larger information image preserves full source composition at 1170px width. No generated objects, compositing or scene edits."
+    },
+    {
+      "id": "business-account",
+      "sourcePage": "https://aib.af/wholesale/account",
+      "imageUrl": "https://framerusercontent.com/images/i17BQ77t1PHKxrYGCk1pjFps.png",
+      "sourceWidth": 1408,
+      "sourceHeight": 736,
+      "processing": "Mobile banner center crop to 780x324; larger information image preserves full source composition at 1170px width. No generated objects, compositing or scene edits."
+    }
+  ]
+}
