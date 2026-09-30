@@ -1,0 +1,100 @@
+{
+  "pay-by-qr": {
+    "banner": {
+      "file": "pay-by-qr-banner.jpg",
+      "width": 1024,
+      "height": 253,
+      "source": "user-supplied; original bytes"
+    },
+    "info": {
+      "file": "pay-by-qr-info.jpg",
+      "width": 1024,
+      "height": 903,
+      "source": "user-supplied; original bytes"
+    }
+  },
+  "prepaid-card-top-up": {
+    "banner": {
+      "file": "prepaid-card-top-up-banner.png",
+      "width": 640,
+      "height": 182,
+      "source": "user-supplied; original bytes"
+    },
+    "info": {
+      "file": "prepaid-card-top-up-info.png",
+      "width": 645,
+      "height": 705,
+      "source": "user-supplied; original bytes"
+    }
+  },
+  "mobile-banking": {
+    "banner": {
+      "file": "mobile-banking-banner.jpg",
+      "width": 640,
+      "height": 182,
+      "source": "user-supplied; original bytes"
+    },
+    "info": {
+      "file": "mobile-banking-info.jpg",
+      "width": 716,
+      "height": 459,
+      "source": "user-supplied; original bytes"
+    }
+  },
+  "send-money-abroad": {
+    "banner": {
+      "file": "send-money-abroad-banner.jpg",
+      "width": 780,
+      "height": 324,
+      "source": "built-in imagegen; resized and cropped for export"
+    },
+    "info": {
+      "file": "send-money-abroad-info.jpg",
+      "width": 1170,
+      "height": 675,
+      "source": "built-in imagegen; resized and cropped for export"
+    }
+  },
+  "personal-loan": {
+    "banner": {
+      "file": "personal-loan-banner.jpg",
+      "width": 780,
+      "height": 324,
+      "source": "built-in imagegen; resized and cropped for export"
+    },
+    "info": {
+      "file": "personal-loan-info.jpg",
+      "width": 1170,
+      "height": 675,
+      "source": "built-in imagegen; resized and cropped for export"
+    }
+  },
+  "savings-account": {
+    "banner": {
+      "file": "savings-account-banner.jpg",
+      "width": 780,
+      "height": 324,
+      "source": "built-in imagegen; resized and cropped for export"
+    },
+    "info": {
+      "file": "savings-account-info.jpg",
+      "width": 1170,
+      "height": 675,
+      "source": "built-in imagegen; resized and cropped for export"
+    }
+  },
+  "business-account": {
+    "banner": {
+      "file": "business-account-banner.jpg",
+      "width": 780,
+      "height": 324,
+      "source": "built-in imagegen; resized and cropped for export"
+    },
+    "info": {
+      "file": "business-account-info.jpg",
+      "width": 1170,
+      "height": 487,
+      "source": "built-in imagegen; resized and cropped for export"
+    }
+  }
+}

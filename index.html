@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>AIB banner assets · Visual preview</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#f6f9fc;color:#172c46;font:16px Arial,sans-serif}main{max-width:1220px;margin:auto;padding:40px 24px}h1{font-size:32px;margin:0 0 12px}p{line-height:1.55;color:#536a80}a{color:#205994}header{margin-bottom:32px}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(310px,1fr));gap:24px}.item{background:#fff;padding:20px;border:1px solid #dce6ef;border-radius:18px;min-width:0}h2{font-size:18px;margin:0 0 20px}.label{font-size:12px;color:#60758a;margin:20px 0 10px;text-transform:uppercase;letter-spacing:.08em}.offer{position:relative;height:108px;width:300px;max-width:100%;border-radius:16px;overflow:hidden;background:#dbe4ed}.offer img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}.shade{position:absolute;inset:0;background:rgba(0,0,0,.35)}.copy{position:absolute;left:0;top:50%;transform:translateY(-50%);width:230px;padding:12px;display:flex;flex-direction:column;gap:4px}.title{font-size:16px;line-height:20px;font-weight:500}.desc{font-size:14px;line-height:18px;opacity:.8}.large{width:100%;height:210px;object-fit:contain;background:#f0f4f8;border-radius:12px}.links{font-size:13px;margin-top:12px;display:flex;gap:18px}.note{font-size:13px}.desktop{height:230px;border-radius:12px}.desktop .copy{top:0;transform:none;padding:12px 16px}
+</style>
+<main><header><h1>AIB banner assets</h1><p>Seven offers, with mobile banner artwork and larger information images. Mobile previews reproduce the inspected branch’s 300 × 108 px cover crop, 230 px copy area, and 35% dark overlay for white text. Typography is an approximation.</p><p><a href="data/banners.json">Original-schema JSON</a> · <a href="data/banners.marketing-branch.json">Current-branch JSON</a> · <a href="assets/manifest.json">Asset dimensions and provenance</a></p><p class="note">Preview copy is inherited from the supplied sample JSON. This preview does not validate banking product terms or enable app integration.</p></header><div class="grid" id="grid"></div></main>
+<script>
+Promise.all([fetch('data/banners.json').then(r=>r.json()),fetch('assets/manifest.json').then(r=>r.json())]).then(([data,manifest])=>{
+ const grid=document.getElementById('grid');
+ for(const b of data.data.banners.sort((a,b)=>a.order-b.order)){
+  const a=manifest[b.id],base='assets/banners/v1/';
+  const item=document.createElement('article');item.className='item';
+  const heading=document.createElement('h2');heading.textContent=b.order+'. '+b.title;item.append(heading);
+  const label=t=>{const d=document.createElement('div');d.className='label';d.textContent=t;item.append(d)};
+  const card=desktop=>{const offer=document.createElement('div');offer.className='offer'+(desktop?' desktop':'');const img=document.createElement('img');img.src=base+a.banner.file;img.alt='';offer.append(img);if(b.color!=='#000000'){const shade=document.createElement('div');shade.className='shade';offer.append(shade)}const copy=document.createElement('div');copy.className='copy';copy.style.color=b.color||'#fff';for(const [key,cls] of [['title','title'],['description','desc']]){const d=document.createElement('div');d.className=cls;d.textContent=b[key]||'';copy.append(d)}offer.append(copy);item.append(offer)};
+  label('Mobile · 300 × 108');card(false);
+  label('Large information image');const im=document.createElement('img');im.className='large';im.src=base+a.info.file;im.alt=b.title+' information artwork';item.append(im);
+  const links=document.createElement('div');links.className='links';for(const v of ['banner','info']){const link=document.createElement('a');link.href=base+a[v].file;link.textContent=v+' · '+a[v].width+'×'+a[v].height;links.append(link)}item.append(links);
+  const details=document.createElement('details');const sum=document.createElement('summary');sum.className='note';sum.style.marginTop='20px';sum.textContent='Inspect desktop center crop';details.append(sum);const marker=document.createElement('div');item.append(details);card(true);details.append(item.lastChild);
+  grid.append(item);
+ }
+});
+</script>
+</html>

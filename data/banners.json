@@ -1,0 +1,169 @@
+{
+  "data": {
+    "banners": [
+      {
+        "id": "send-money-abroad",
+        "order": 1,
+        "imageUrl": "https://raw.githubusercontent.com/pxlzone/aib-public/main/assets/banners/v1/send-money-abroad-banner.jpg",
+        "title": "Send money abroad",
+        "description": "Transfer to your recipients in a few taps.",
+        "color": "#FFFFFF",
+        "action": "form",
+        "info": {
+          "header": {
+            "banner": "https://raw.githubusercontent.com/pxlzone/aib-public/main/assets/banners/v1/send-money-abroad-info.jpg"
+          },
+          "sections": [
+            {
+              "icon": "page-edit",
+              "title": "Fast transfers",
+              "description": "Money reaches most countries within one business day."
+            },
+            {
+              "icon": "shield-halved",
+              "title": "Safe and secure",
+              "description": "Every transfer is protected and tracked end to end."
+            },
+            {
+              "icon": "globe",
+              "title": "Worldwide reach",
+              "description": "Send to recipients in more than 50 countries."
+            }
+          ]
+        }
+      },
+      {
+        "id": "prepaid-card-top-up",
+        "order": 2,
+        "imageUrl": "https://raw.githubusercontent.com/pxlzone/aib-public/main/assets/banners/v1/prepaid-card-top-up-banner.png",
+        "title": "Top up your prepaid card",
+        "description": "Recharge in seconds and start spending right away.",
+        "color": "#FFFFFF",
+        "action": "form",
+        "info": {
+          "header": {
+            "icon": "credit-card",
+            "title": "Prepaid card",
+            "description": "Recharge in seconds and start spending right away."
+          },
+          "sections": [
+            {
+              "icon": "wallet",
+              "title": "No bank account needed",
+              "description": "Top up and spend without linking an account."
+            },
+            {
+              "title": "Accepted everywhere",
+              "description": "Pay online and in shops wherever cards are accepted."
+            }
+          ]
+        }
+      },
+      {
+        "id": "pay-by-qr",
+        "order": 3,
+        "imageUrl": "https://raw.githubusercontent.com/pxlzone/aib-public/main/assets/banners/v1/pay-by-qr-banner.jpg",
+        "title": "Pay by QR code",
+        "description": "Scan and pay at partner merchants.",
+        "color": "#FFFFFF",
+        "url": "https://www.google.com"
+      },
+      {
+        "id": "personal-loan",
+        "order": 4,
+        "imageUrl": "https://raw.githubusercontent.com/pxlzone/aib-public/main/assets/banners/v1/personal-loan-banner.jpg",
+        "title": "Personal loan",
+        "description": "Borrow up to 500,000 AFN with fixed monthly payments.",
+        "color": "#FFFFFF",
+        "action": "form",
+        "info": {
+          "header": {
+            "title": "Personal loan",
+            "description": "Fixed monthly payments over 6 to 36 months."
+          },
+          "sections": [
+            {
+              "title": "Quick decision",
+              "description": "Most applications get an answer within two working days."
+            },
+            {
+              "title": "No hidden fees",
+              "description": "You see the full cost of the loan before you sign."
+            },
+            {
+              "title": "Early repayment",
+              "description": "Pay the loan off early at no extra charge."
+            }
+          ]
+        }
+      },
+      {
+        "id": "savings-account",
+        "order": 5,
+        "imageUrl": "https://raw.githubusercontent.com/pxlzone/aib-public/main/assets/banners/v1/savings-account-banner.jpg",
+        "title": "Open a savings account",
+        "description": "Grow your money with a competitive profit rate.",
+        "color": "#000000",
+        "action": "form",
+        "info": {
+          "header": {
+            "icon": "fa-piggy-bank",
+            "title": "Savings account",
+            "description": "Put money aside and watch it grow."
+          },
+          "sections": [
+            {
+              "icon": "fa-percent",
+              "title": "Competitive rate",
+              "description": "Profit is paid into your account every month."
+            },
+            {
+              "icon": "not-a-real-icon",
+              "title": "Unknown icon",
+              "description": "This section names an icon that does not exist, so it shows text only."
+            },
+            {
+              "icon": "clock",
+              "title": "Access any time",
+              "description": "Withdraw from your savings whenever you need to."
+            }
+          ]
+        }
+      },
+      {
+        "id": "mobile-banking",
+        "order": 6,
+        "imageUrl": "https://raw.githubusercontent.com/pxlzone/aib-public/main/assets/banners/v1/mobile-banking-banner.jpg",
+        "title": "Mobile banking",
+        "description": "Everything you need, right in your pocket.",
+        "color": "#FFFFFF",
+        "action": "form",
+        "info": {
+          "sections": [
+            {
+              "icon": "mobile-screen",
+              "title": "Bank on the go",
+              "description": "Check balances and send money from anywhere."
+            },
+            {
+              "icon": "bell",
+              "title": "Instant alerts",
+              "description": "Get notified the moment money moves in your account."
+            }
+          ]
+        }
+      },
+      {
+        "id": "business-account",
+        "order": 7,
+        "imageUrl": "https://raw.githubusercontent.com/pxlzone/aib-public/main/assets/banners/v1/business-account-banner.jpg",
+        "title": "Business account",
+        "description": "Banking built for growing companies.",
+        "descriptionText": "Manage payroll, suppliers and payments from one account.",
+        "descriptionImage": "https://raw.githubusercontent.com/pxlzone/aib-public/main/assets/banners/v1/business-account-info.jpg",
+        "color": "#FFFFFF",
+        "action": "form"
+      }
+    ]
+  }
+}

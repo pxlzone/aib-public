@@ -1,0 +1,81 @@
+{
+  "data": {
+    "banners": [
+      {
+        "id": "send-money-abroad",
+        "order": 1,
+        "imageUrl": "https://raw.githubusercontent.com/pxlzone/aib-public/main/assets/banners/v1/send-money-abroad-banner.jpg",
+        "title": "Send money abroad",
+        "description": "Transfer to your recipients in a few taps.",
+        "color": "#FFFFFF",
+        "action": "form",
+        "descriptionText": "Transfer to your recipients in a few taps.",
+        "descriptionImage": "https://raw.githubusercontent.com/pxlzone/aib-public/main/assets/banners/v1/send-money-abroad-info.jpg"
+      },
+      {
+        "id": "prepaid-card-top-up",
+        "order": 2,
+        "imageUrl": "https://raw.githubusercontent.com/pxlzone/aib-public/main/assets/banners/v1/prepaid-card-top-up-banner.png",
+        "title": "Top up your prepaid card",
+        "description": "Recharge in seconds and start spending right away.",
+        "color": "#FFFFFF",
+        "action": "form",
+        "descriptionText": "Recharge in seconds and start spending right away.",
+        "descriptionImage": "https://raw.githubusercontent.com/pxlzone/aib-public/main/assets/banners/v1/prepaid-card-top-up-info.png"
+      },
+      {
+        "id": "pay-by-qr",
+        "order": 3,
+        "imageUrl": "https://raw.githubusercontent.com/pxlzone/aib-public/main/assets/banners/v1/pay-by-qr-banner.jpg",
+        "title": "Pay by QR code",
+        "description": "Scan and pay at partner merchants.",
+        "color": "#FFFFFF",
+        "url": "https://www.google.com"
+      },
+      {
+        "id": "personal-loan",
+        "order": 4,
+        "imageUrl": "https://raw.githubusercontent.com/pxlzone/aib-public/main/assets/banners/v1/personal-loan-banner.jpg",
+        "title": "Personal loan",
+        "description": "Borrow up to 500,000 AFN with fixed monthly payments.",
+        "color": "#FFFFFF",
+        "action": "form",
+        "descriptionText": "Borrow up to 500,000 AFN with fixed monthly payments.",
+        "descriptionImage": "https://raw.githubusercontent.com/pxlzone/aib-public/main/assets/banners/v1/personal-loan-info.jpg"
+      },
+      {
+        "id": "savings-account",
+        "order": 5,
+        "imageUrl": "https://raw.githubusercontent.com/pxlzone/aib-public/main/assets/banners/v1/savings-account-banner.jpg",
+        "title": "Open a savings account",
+        "description": "Grow your money with a competitive profit rate.",
+        "color": "#000000",
+        "action": "form",
+        "descriptionText": "Grow your money with a competitive profit rate.",
+        "descriptionImage": "https://raw.githubusercontent.com/pxlzone/aib-public/main/assets/banners/v1/savings-account-info.jpg"
+      },
+      {
+        "id": "mobile-banking",
+        "order": 6,
+        "imageUrl": "https://raw.githubusercontent.com/pxlzone/aib-public/main/assets/banners/v1/mobile-banking-banner.jpg",
+        "title": "Mobile banking",
+        "description": "Everything you need, right in your pocket.",
+        "color": "#FFFFFF",
+        "action": "form",
+        "descriptionText": "Everything you need, right in your pocket.",
+        "descriptionImage": "https://raw.githubusercontent.com/pxlzone/aib-public/main/assets/banners/v1/mobile-banking-info.jpg"
+      },
+      {
+        "id": "business-account",
+        "order": 7,
+        "imageUrl": "https://raw.githubusercontent.com/pxlzone/aib-public/main/assets/banners/v1/business-account-banner.jpg",
+        "title": "Business account",
+        "description": "Banking built for growing companies.",
+        "descriptionText": "Manage payroll, suppliers and payments from one account.",
+        "descriptionImage": "https://raw.githubusercontent.com/pxlzone/aib-public/main/assets/banners/v1/business-account-info.jpg",
+        "color": "#FFFFFF",
+        "action": "form"
+      }
+    ]
+  }
+}
